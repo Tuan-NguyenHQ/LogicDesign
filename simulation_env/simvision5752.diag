@@ -1,0 +1,83 @@
+*** Message Type: info ***
+When: Tue Mar 05 11:52:15 PM +07 2024
+SimVision started.
+Version: TOOL:  simvision(64)   20.03-s010
+User: cc01group4
+Host: localhost
+Platform: Linux/x86_64/3.10.0-1160.80.1.el7.x86_64
+Started: Tue Mar 05 11:52:15 PM +07 2024
+Command: /home/share_file/cadence/installs/XCELIUM2003/tools.lnx86/simvision/bin/64bit/simvision.exe -64
+Work Directory: /data/vlsi2023/cc01group4/2153078/work/simulation_env
+ 
+*** Message Type: info ***
+When: Tue Mar 05 11:52:21 PM +07 2024
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Tue Mar 05 11:53:05 PM +07 2024
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Tue Mar 05 11:53:07 PM +07 2024
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Tue Mar 05 11:56:22 PM +07 2024
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Tue Mar 05 11:56:42 PM +07 2024
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Tue Mar 05 11:57:10 PM +07 2024
+Connect to Simulator
+      Design: worklib.bound_flasher_tb:v
+   Languages: verilog
+   Simulator: Xcelium ppe
+     Version: TOOL:    ippe(64)        20.03-s010
+        User: cc01group4
+        Host: localhost
+Time Started: Tue Mar 05 11:57:09 PM +07 2024
+  Process ID: 7991
+   Directory: /data/vlsi2023/cc01group4/2153078/work/simulation_env
+     Command: /home/share_file/cadence/installs/XCELIUM2003/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /data/vlsi2023/cc01group4/2153078/work/simulation_env/./xcelium.d/run.lnx8664.20.03.d/cds.lib -snapshot worklib.bound_flasher_tb:v -64
+
+ 
+*** Message Type: info ***
+When: Tue Mar 05 11:57:14 PM +07 2024
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Tue Mar 05 11:57:17 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 495 359 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 495 359 -double}"
+    (command bound to event)
+ 
+*** Message Type: info ***
+When: Tue Mar 05 11:57:27 PM +07 2024
+SimVision Exit.
+ 

@@ -1,0 +1,4 @@
+#! /bin/bash -f
+source /home/share_file/cadence/add_path
+source /home/share_file/cadence/add_license
+simvision -64 &

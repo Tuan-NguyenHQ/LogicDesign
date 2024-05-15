@@ -1,0 +1,18 @@
+xrun(64): 20.03-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.03-s010: Started on Mar 08, 2024 at 13:15:57 +07
+xrun
+	-access rw
+	-licqueue
+	-64BIT
+	-l run.log
+	bound_flasher.v
+	bound_flasher_tb.v
+
+Trying to check out license...
+	Xcelium_Limited_Single_Core 20.00 - Failed
+	Xcelium_Single_Core 20.00 - Failed
+	Xcelium_Safety 20.00 - Failed
+	Xcelium_Multi_Core 20.00 - Failed
+	Xcelium_For_Partners 20.00 - Failed
+xmsim: *F,NOLICN: Unable to checkout license for the simulation. 'lic_error LMF-03005'.
+TOOL:	xrun(64)	20.03-s010: Exiting on Mar 08, 2024 at 13:15:57 +07  (total: 00:00:00)

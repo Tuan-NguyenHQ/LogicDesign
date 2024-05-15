@@ -1,0 +1,4 @@
+#! /bin/bash -f
+source /home/share_file/cadence/add_path
+source /home/share_file/cadence/add_license
+xrun -access rw -licqueue -64BIT -l run.log bound_flasher.v bound_flasher_tb.v
